@@ -31,6 +31,7 @@ TBL_DIR     = os.path.join(RESULTS_DIR, 'tables')
 os.makedirs(FIG_DIR, exist_ok=True)
 os.makedirs(TBL_DIR, exist_ok=True)
 
+#설명 셀 추가
 # 그림 파일명에 붙일 일련번호 (01, 02, ... 순서대로 정렬되게)
 _fig_counter = {'n': 0}
 
